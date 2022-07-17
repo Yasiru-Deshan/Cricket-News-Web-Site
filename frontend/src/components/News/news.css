@@ -1,0 +1,157 @@
+.NewsContainer {
+  color: black;
+  background-color: white;
+  margin-top: 0px;
+}
+
+.HeadNewsContainer {
+  color: black;
+  background-color: #101522;
+  margin-top: 0px;
+}
+
+.NewsWrapper {
+  display: grid;
+  z-index: 1;
+  height: 580px;
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 24px;
+  justify-content: center;
+}
+
+.NewsRow {
+  display: grid;
+  grid-auto-columns: minmax(auto, 1fr);
+  align-items: center;
+  grid-template-areas: "col2 col1";
+}
+
+.Column1 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+  grid-area: col1;
+}
+
+.Column2 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+  grid-area: col2;
+}
+
+.TextWrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.TopLine {
+  color: #01bf71;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.Heading {
+  margin-bottom: 24px;
+  font-size: 38px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: "#010606";
+}
+.HeadHeading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: white;
+}
+
+.Description {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: "#010606";
+}
+
+.HeadDescription {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.BtnWrap {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ImgWrap {
+  max-width: 555px;
+  height: 100%;
+}
+
+.Img {
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+  border-radius: 10px;
+}
+
+.BtnWrap {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ButtonView {
+  border-radius: 6px;
+  background: white;
+  padding: 10px 30px;
+  color: #000;
+  outline: none;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.ButtonView:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #01bf71;
+  border: 2px solid #01bf71;
+}
+
+.HeadButtonView {
+  border-radius: 6px;
+  background: transparent;
+  padding: 10px 30px;
+  color: white;
+  outline: none;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.HeadButtonView:hover {
+  transition: all 0.2s ease-in-out;
+
+  color: #01bf71;
+  border: 2px solid #01bf71;
+}
